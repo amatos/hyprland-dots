@@ -1,0 +1,2 @@
+#!/bin/sh
+sensors | grep --color=auto "Tccd1:" | cut -f 2 -d "+" | xargs
