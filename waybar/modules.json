@@ -225,8 +225,8 @@
         },
         "scroll-step": 5,
         "on-click": "pamixer -t",
-        "on-click-right": "kitty --class update -T update -e pulsemixer",
-        "on-click-middle": "pavucontrol",
+        "on-click-middle": "kitty --class update -T update -e pulsemixer",
+        "on-click-right": "pavucontrol",
         "smooth-scrolling-threshold": 1
     },
     "custom/cputemp":
