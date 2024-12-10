@@ -48,7 +48,11 @@ close_applications
 
 case $1 in
 logout)
-  loginctl terminate-session "$XDG_SESSION_ID"
+  if [ -e /usr/bin/uwsm ]; then
+    uwsm stop
+  else
+    loginctl terminate-session "$XDG_SESSION_ID"
+  fi
   # hyprctl dispatch exit
   ;;
 reboot)
