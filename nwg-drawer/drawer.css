@@ -1,0 +1,46 @@
+@import "active.css";
+
+window {
+    background-color: @base;
+    color: @text;
+}
+
+/* search entry */
+entry {
+    background-color: @mantle;
+    margin: 0;
+}
+
+button,
+image {
+    background: none;
+    border: none;
+}
+
+button:hover {
+    background-color: @overlay2;
+}
+
+/* in case you wanted to give category buttons a different look */
+#category-button {
+    background-color: @crust;
+    margin: 0 10px 0 10px;
+    box-shadow: none;
+}
+
+#pinned-box {
+    padding-bottom: 5px;
+    border-bottom: 1px dotted @overlay2;
+}
+
+#files-box {
+    padding: 5px;
+    border: 1px dotted @overlay2;
+    border-radius: 15px;
+}
+
+/* math operation result label */
+#math-label {
+    font-weight: bold;
+    font-size: 16px;
+}
