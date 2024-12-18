@@ -12,16 +12,15 @@
     "custom/arch",
     "hyprland/workspaces",
     "hyprland/submap",
-    "cpu",
-    "temperature",
     "hyprland/window"
   ],
 
   "modules-center": ["clock", "custom/weather", "gamemode"],
   "modules-right": [
     "mpris",
-    "keyboard-state",
     "tray",
+    "cpu",
+    "temperature",
     "custom/hyprmixer",
     "idle_inhibitor",
     "backlight",
