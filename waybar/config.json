@@ -13,10 +13,11 @@
     "hyprland/workspaces",
     "hyprland/submap",
     "cpu",
-    "temperature"
+    "temperature",
+    "hyprland/window"
   ],
 
-  "modules-center": ["hyprland/window", "clock", "custom/weather", "gamemode"],
+  "modules-center": ["clock", "custom/weather", "gamemode"],
   "modules-right": [
     "mpris",
     "keyboard-state",
