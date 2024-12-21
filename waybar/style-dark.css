@@ -14,9 +14,9 @@ window#waybar {
     transition-property: background-color;
     transition-duration: 0.5s;
     background-color: @surface0;
-    /*    background: @base;*/
+    /* background: @base; */
     background: rgba(36, 39, 58, 0.5);
-    /*    color: @text;*/
+    /* color: @text; */
     border-bottom: 0px solid @red;
     /*    border: 0px solid @surface0; */
     border-radius: 0px 0px 10px 10px;
@@ -62,8 +62,13 @@ window#waybar.hidden {
 #custom-waybar-mpris,
 #window,
 #submap,
+#custom-notification,
 #network {
     padding: 0px 0px;
+}
+
+#smallspacer {
+    padding: 0px 10px;
 }
 
 #tray {
@@ -273,7 +278,7 @@ window#waybar.hidden {
     color: @mauve;
     border-radius: 13px;
     border: 3px solid @mauve;
-    padding: 0px 10px;
+    padding: 0px 10px 0px 10px;
     background-color: @surface0;
 }
 
