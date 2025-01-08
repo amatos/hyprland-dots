@@ -125,7 +125,7 @@
   "custom/power": {
     "format": "",
     "tooltip-format": "Click to display a logout menu",
-    "on-click": "wlogout -p layer-shell"
+    "on-click": "wlogout --layout ~/.config/hypr/wlogout/layout --css ~/.config/hypr/wlogout/style.css -p layer-shell"
   },
   "disk": {
     "interval": 30,
@@ -269,7 +269,7 @@
     "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}",
     "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%",
-    "on-click-right": "blueberry"
+    "on-click-right": "blueman-manager"
   },
   "temperature": {
     "thermal-zone": 2,
