@@ -98,6 +98,6 @@ window {
     color: @mauve;
 }
 #entry:drop(active) {
-    background-color: @lavender !important;
+    background-color: @lavender;
     animation: fadeIn 1s ease-in-out;
 }
