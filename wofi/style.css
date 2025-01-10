@@ -58,7 +58,7 @@ window {
     color: @text;
     animation: slideIn 0.5s ease-in-out;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-    border-radius: 12;
+    border-radius: 12px;
 }
 #input image {
     border: none;
@@ -73,7 +73,7 @@ window {
     outline: none;
     border: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-    border-radius: 10;
+    border-radius: 10px;
 }
 #text {
     margin: 5px;
