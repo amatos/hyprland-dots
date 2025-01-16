@@ -16,7 +16,7 @@
     "hyprland/workspaces": {
         "format": "{icon} {windows}",
         "format-icons": {
-            
+
             "empty": "",
             "steam": "",
             "1password": "󰟵",
@@ -106,7 +106,7 @@
         "format-icons": ["󰁻", "󰁼", "󰁾", "󰂀", "󰂂", "󰁹"]
     },
     "custom/pacman": {
-        "format": "󰅢 {}",
+        "format": "󰅢  {}",
         "interval": 600,
         "exec": "checkupdates | wc -l",
         "exec-if": "exit 0",
