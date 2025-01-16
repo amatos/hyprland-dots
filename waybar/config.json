@@ -158,7 +158,7 @@
         "format": ""
     },
     "tray": {
-        "icon-size": 14,
+        "icon-size": 20,
         "spacing": 10
     }
 }
