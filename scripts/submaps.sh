@@ -1,3 +1,5 @@
+#!/bin/env bash
+
 # shellcheck shell=sh
 
 # shellevents sample event file

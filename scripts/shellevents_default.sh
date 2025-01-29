@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/env bash
 
 # default handlers for shellevents
 #

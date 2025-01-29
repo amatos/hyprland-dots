@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/env bash
 
 ## shellevents - run shell functions in response to Hyprland event
 #

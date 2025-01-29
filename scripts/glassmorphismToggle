@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 BLUR_PASSES=$(hyprctl -j getoption decoration:blur_passes | jaq ".int")
 
