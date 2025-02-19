@@ -7,9 +7,3 @@ animation = "fromTop"
 command = "kitty --class kitty-dropterm"
 class = "kitty-dropterm"
 size = "75% 60%"
-
-[scratchpads.texteditor]
-animation = "fromTop"
-command = "subl --new-window"
-class = "sublime-dropterm"
-size = "75% 60%"
